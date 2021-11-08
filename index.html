@@ -1,0 +1,133 @@
+<html>
+	<head>
+		<title>E-VISA</title>
+		<link rel="stylesheet" type="text/css" href="style.css"/>
+		<style>
+			#header {
+				background-color: blue;
+			}
+			body {
+	color: #FFFFF;
+}
+
+body {font-family: Arial, Helvetica, sans-serif;}
+	* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+
+}
+input[type=submit]{
+	background-color: #a04545;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+input[type=submit]:hover{
+	background-color: #4557a0;
+}
+.container {
+	border-radius: 5px;
+	background-color: #4557a0;
+	padding: 20px;
+}
+
+.topnav {
+	overflow: hidden;
+	background-color: #333;
+}
+
+.topnav a{
+	float: left;
+	color: #blue;
+	text-aling: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-szie: 20px;
+}
+
+.topnav a:hover{
+	background-color: #ddd;
+	color: blue;
+}
+
+.topnav a.active{
+	background-color: #04AA6D;
+	color: white;
+}
+		</style>
+	</head>
+	<body>
+		<div id="container">
+			<div id="header">
+				<h1>E-VISA</h1>
+			</div>
+			<div id="content">
+				
+				<center><h2>Applicant Registration</h2></center>
+				
+				Title:<select name="title">
+				
+					<option value="mr">Mr</option>
+					<option value="miss">Miss</option>
+					
+				</select>
+				
+				<label for="family"></label>
+				<p>Family Name:</p><input type="text" id="family" name="family" placeholder="Family" required>                 
+				
+				<label for="First"></label>
+				<p>First Name:</p><input type="text" id="first" name="first" placeholder="First Name" required>
+				
+				<label for="Last"></label>
+				<p>Last Name:</p><input type="text" id="last"   name="last" placeholder="Last Name"   required>
+				
+				<label for="date">Date of Birth:</label>
+				<input type="date" id="date" name="date" placeholder="date" required>
+				
+				<label for="country"></label>
+				<p>Country of birth:</p><input type="text" id="country" name="country" placeholder="Country of Birth" required>
+				
+				<label for="residence"></label>
+				<p>Country of Residence:</p><input type="text" id="residence" name="residence" placeholder="Country of Residence" required>
+				
+				<label for="address"></label>
+				<p>Address:</p><input type="text" id="address" name="address" placeholder="address" required>
+				
+				<label for="Mobile"></label>
+				<p>Mobile Number:</p><input type="text" id="mobile" name="mobile" placeholder="Mobile" required>
+				
+				Nationality:<select name="British">
+				
+				<option value="British">British</option>
+				<option value="Pakistani">Pakistani</option>
+				<option value="German">German</option>
+				
+				</select>
+				
+				Ethnicity:<select name="ethnitic">
+				
+				<option value="British">British</option>
+				<option value="Pakistani">Pakistani</option>
+				<option value="German">German</option>
+			
+			</select>
+			
+				
+				<div id="footer">
+					<center>Copyright@developed by me.</center>
+				
+				</div>
+			
+			</div>
+		</body>
+	</html>
