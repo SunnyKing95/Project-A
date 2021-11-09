@@ -1,0 +1,146 @@
+<!DOCTPYE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="styling.css"/>
+		<title>E-VISA</title>
+		<style>
+			#header {
+				background-color: blue;
+			}
+				body {
+			color: #FFFFF;
+			}
+			ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: pink;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: blue;
+}
+
+.active {
+  background-color: red;
+}
+		</style>
+		</head>
+		<body>
+		
+		
+			
+			<div id="container">
+				<div id="header">
+					<center><h1>E-VISA</h1></center>
+				</div>
+				<div id="content">
+				<ul>
+			<li><a class="active" href="#home">Home</a></li>
+			<li><a href="#news">News</a></li>
+			<li><a href="#contact">Contact</a></li>
+		</ul>
+				<center><h2>Applicant Details</h2></center>
+				
+				<form action="applicant.html" method="GET">
+				
+					<div>
+						
+					<label for="fname">Surname(exactly as in your passport):</label>
+					<input type="text" id="fname" name="fname"><br><br>
+					</div>
+					
+					<div>
+						
+					
+					<label for="lname">Given Name/s(exactly as in your Passport)</label>
+					<input type="text" id="lname" name="lname"><br><br>
+					</div>
+					
+					<div>
+					<label for="ID">Your National ID number</label>
+					<input type="text" id="id" name="id"><br><br>
+					</div>
+					
+					
+					<p>Have you ever changed your name? If yes, click the box and give details.</p>
+					<div>
+					
+					<label for="town">Town of Birth:</label>
+					<input type="text" id="town" name="town"><br><br>
+					</div>
+					
+					
+					<div>
+					<label for="date">Date of Birth:
+					<input type="date" id="date" name="date" placeholder="date" required>
+					</label>
+					</div>
+					
+					<p>Continue...</p>
+					
+					<div>
+					Gender:<select name="gender">
+						<option value="male">Male</option>
+						<option value="female">Female</option>
+						<option value="not">Prefer not to say</option>
+					</select>
+					
+					</div>
+					
+					<div>
+					<p>Continue with Birth</p>
+					
+					Country of Birth:<select name="country">
+						<option value="England">England</option>
+						<option value="Germany">Germany</option>
+					</select>
+					</div>	
+					
+					<p>Please enter your ID of Citizenship/Passport.</p>
+					<div>
+					<label for="ID">Citizenship ID:</label>
+					<input type="text" id="number" name="number"><br><br>
+					</div>
+						
+					<div>
+					Education Qualification:<select name="education">
+						<option value="Bachelor">Bachelor</option>
+						<option value="Masters">Masters</option>
+					
+					</select>
+					</div>
+					
+					<p>Please select your nationality:</p>
+					<div>
+						Nationality:<select name="nationality">
+							<option value="British">British</option>
+							<option value="Pakistani">Pakistani</option>
+						</select>
+						</div>
+					
+				
+					
+				</div>
+					
+					<div id="footer">
+					<center>Copyright@developed by me.</center>
+				
+				</div>
+</body>				
+</html>
